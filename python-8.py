@@ -337,3 +337,8 @@ school_records={
 }
 print(list(school_records["grades_info"] ["teen"] ["joseph"].items()))
 print(school_records["grades_info"]["teen"] ["joseph"])
+
+harf=['a' , 'b' , ' c' ]
+sayi=[1,2,3]
+list(zip(harf, sayi))
+[('a', 1), ('b', 2), ('c', 3)]
